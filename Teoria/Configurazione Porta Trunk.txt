@@ -1,0 +1,16 @@
+Configurazione Porta Trunk
+
+Per configurare una porta trunk bisogna:
+
+conf t -> entrare in modalita' configurazione
+
+interface g0/1 -> selezionare l interface
+
+switchport mode trunk -> la imposto trunk
+
+end
+
+show interface g0/1 switchport -> mi da le info sulla porta 
+
+
+Non bisogna fare altro perche di default gli switch hanno l administrative mode in modalita dynamic auto, quindi dato che la porta trunk serve a collegare due switch, sul secondo switch l interface  andra' direttamente in modalita' trunk

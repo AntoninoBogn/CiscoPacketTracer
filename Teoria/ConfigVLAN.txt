@@ -1,0 +1,12 @@
+Entrare in CLI (Command line interface) sullo switch
+
+
+en -> significa enable
+conf t -> per entrare in modalita configurazione
+vlan 10 -> sto dichiarando la vlan
+interface f0/1 -> seleziono l interfaccia su cui dichiarare la vlan 
+switchport mode access
+switchport  access vlan 10 -> assegno la vlan all interface
+
+
+show vlan brief -> per vedere tutte le vlan configurate
